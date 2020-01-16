@@ -13,4 +13,4 @@ steps:
     '--memory', '128MB'
   ]
 substitutions:
-  _REGION: us-east1
+  _REGION: us-central1
