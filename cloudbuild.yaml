@@ -6,7 +6,6 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: [
     'functions', 'deploy', 'api',
-    '--allow-unauthenticated',
     '--trigger-http',
     '--runtime', 'nodejs8',
     '--region', '${_REGION}',
